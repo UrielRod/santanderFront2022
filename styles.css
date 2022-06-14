@@ -1,5 +1,6 @@
 body {
-    background-color: #fffbf7;
+    background-color: #dbd5cf;
+    border-top-width: 5cm;
 }
 h1{
     color: #025157;
@@ -13,4 +14,14 @@ p{
 button{
     color: #fff;
     background-color: #025157;
+    border: 3pt solid #19db2a ;
+}
+input{
+    font-style: italic;
+    font-family: 'Gill Sans';
+    background-color: aqua;
+    border: 3pt solid #db197a;
+}
+form{
+    background-color: white;
 }
