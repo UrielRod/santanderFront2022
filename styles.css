@@ -1,5 +1,5 @@
 body {
-    background-color: #dbd5cf;
+    background-color: #f1f0ef;
     border-top-width: 5cm;
 }
 h1{
@@ -14,14 +14,79 @@ p{
 button{
     color: #fff;
     background-color: #025157;
-    border: 3pt solid #19db2a ;
+    /*border: 3pt solid #19db2a ;*/
 }
 input{
     font-style: italic;
     font-family: 'Gill Sans';
-    background-color: aqua;
-    border: 3pt solid #db197a;
+    /*background-color: aqua;*/
+    /*border: 3pt solid #db197a;*/
 }
-form{
+/*form{
     background-color: white;
+}*/
+.header{
+    /*margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;*/
+    margin: 40px 20px 0;/*top izquierdo/derecho abajo*/
+    font-size: 0;
+}
+
+li{
+    display: inline;
+    margin-right: 25px;
+    margin-left: 25px;
+    color: #025157;
+}
+.header > * {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 45px;
+    height: 100%;
+    vertical-align: middle;
+    font-family: sans-serif;
+    height: 45px;
+}
+
+.logo {
+    width: 15%;
+}
+
+.logo > img {
+    width: 15%;
+}
+.navbar {
+    width: 70%;
+    text-align: left;
+    color: #025157;
+    font-weight: 500;
+    font-family: "Fascinate Inline";
+}
+
+.actions{
+    width: 15%;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 600;
+}
+.actions > *{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.actions a{
+    color: #67b54b;
+}
+.actions button{
+    color: white; 
+    background-color: #67b54b;
+    padding: 12px 14px 12px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.main {
+    margin-top: 140px;
+    text-align: center;
 }
